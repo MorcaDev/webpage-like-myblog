@@ -157,7 +157,7 @@ main{
     height: auto;
     min-width: 320px;
     text-align: center;
-    background-color: rgb(52, 72, 109);
+    background-color: white;
 }
 .main-me .meh2{
     font-size: 4rem;
@@ -167,9 +167,9 @@ main{
 .main-me .meh2 span{
     display: block;
     margin: 40px auto;
-    width: 25px;
+    width: 15px;
     height: 1px;
-    background-color: lawngreen;
+    background-color: rgb(81, 187, 39);
 }
 .main-me .mep{
     margin-bottom: 25px;
@@ -279,5 +279,83 @@ main{
     width: 100%;
     height: auto;
     min-width: 320px;
+    padding: 80px 16px;
+}
+.main-blogpreview .blogpreviewh2{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.main-blogpreview .blogpreviewh2 span{
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 40px auto;
+    background-color: greenyellow;
+}
+.main-blogpreview .blogpreviewp{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    color: gray;
+}
+.charts-countainer{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 60px;
+    padding: 16px;
+    background-color: rgba(128, 128, 128, 0.1);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+.charts-countainer .chart1, .charts-countainer .chart2, .charts-countainer .chart3{
+    width: 100%;
+    min-width: 227px;
+    max-width: 295px;
+    margin: 0px auto;
+}
+.charts-countainer .chart1 img, .charts-countainer .chart2 img,  .charts-countainer .chart3 img{
+    width: 100%;
+    height: 140px;
+    margin-bottom: 15px;
+}
+.charts-countainer .chart1 h2, .charts-countainer .chart2 h2,  .charts-countainer .chart3 h2{
+    font-size: 2.5rem;
+}
+.charts-countainer .chart1 h3, .charts-countainer .chart2 h3,  .charts-countainer .chart3 h3{
+    font-size: 1.3rem;
+}
+.charts-countainer .chart1 .span-line, .charts-countainer .chart2 .span-line,  .charts-countainer .chart3 .span-line{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.charts-countainer .chart1 p, .charts-countainer .chart2 p,  .charts-countainer .chart3 p{
+    font-size: 1.5rem;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+.charts-countainer .chart1 a, .charts-countainer .chart2 a,      .charts-countainer .chart3 a{
+    display: inline-block;
+    margin: 20px 0px;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.charts-countainer .chart1 .span-link, .charts-countainer .chart2 .span-link,  .charts-countainer .chart3 .span-link{
+    display: inline-block;
+    width: 20px;
+    height: 13px;
+    background: url("./media/direción.png") no-repeat center;
+    background-size: contain;
+    vertical-align: top;
 }
 /*----------------------------------*/
