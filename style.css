@@ -9,7 +9,7 @@ html{
 body{
     width: 100%;
     min-width: 320px;
-    max-width: 1600px;
+    max-width: 1500px;
 }
 /*--------------------------*/
 header{
@@ -213,7 +213,7 @@ main{
     padding: 50px 45px;
     background: linear-gradient(to bottom , yellow, black) no-repeat fixed center;
     background-size: cover;
-    border: 2px solid white;
+    border: 2px solid rgb(212, 199, 199);
 }
 .me-countainer .skill1 h3{
     font-size: 5rem;
@@ -243,7 +243,7 @@ main{
     padding: 50px 45px;
     background: linear-gradient(to bottom , rgb(255, 145, 0), grey) no-repeat fixed center;
     background-size: cover;
-    border: 2px solid whitesmoke;
+    border: 2px solid rgb(212, 199, 199);
 }
 .me-countainer .skill2 h3{
     font-size: 5rem;
@@ -272,7 +272,7 @@ main{
     padding: 50px 45px;
     background: linear-gradient(to bottom, red, gray) no-repeat fixed center;
     background-size: cover;
-    border: 2px solid white;
+    border: 2px solid rgb(212, 199, 199);
 }
 .me-countainer .skill3 h3{
     font-size: 5rem;
@@ -445,19 +445,4 @@ footer .footer-right ul li a .twitter{
     height: 60px;
     background: url("./media/TwitterIcon.png") no-repeat center;
     background-size: contain; 
-}
-/*----------------Responsive-----------------*/
-@media(min-width:750px){
-    .main-comodin{
-        display: flex;
-        flex-flow:row wrap;
-    }
-    .comodin-1st{
-        width: 50%;
-        height: 315px;
-    }
-    .comodin-2nd{
-        width: 50%;
-        height: 315px;
-    }
 }
