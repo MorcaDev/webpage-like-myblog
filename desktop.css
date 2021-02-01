@@ -1,4 +1,38 @@
 @media(min-width:1000px){
+    .header-brand{
+        width: 50%;
+    }
+    .header-nav{
+        width: 50%;
+    }
+    .header-nav .nav--img{
+        display: none;
+    }
+    .header-nav div{
+        position: static;
+        display: block;
+        width: 100%;
+        height: 100%;
+        right: none;
+        background: rgba(255, 255, 255, 0);
+    }
+    .header-nav div a{
+        display: inline-block;
+        width: 32%;
+        height: auto;
+        padding: 31px 5px;
+    }
+    .header-nav div a .nav-line{
+        display: none;
+    }
+    .header-nav:hover div{
+        display: block;
+        flex-flow: row nowrap;
+    }
+    .header-nav div a:hover{
+        border-bottom: solid 3px black;
+    }
+    /*------------------*/
     .main-comodin{
         position: relative;
         top: -120px
