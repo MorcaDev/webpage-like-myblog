@@ -9,6 +9,7 @@ html{
 body{
     width: 100%;
     min-width: 320px;
+    max-width: 1600px;
 }
 /*--------------------------*/
 header{
@@ -68,6 +69,7 @@ main{
 }
     /*--------------------------------------*/
 .main-presentation{
+    position: relative;
     display: flex;
     align-items: center;
     padding: 10px 0px;
@@ -115,6 +117,8 @@ main{
     width: 100%;
     height: auto;
     min-width: 320px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .comodin-1st{
     width: 100%;
@@ -143,7 +147,7 @@ main{
 }
 .comodin-2nd{
     width: 100%;
-    height: 392px;
+    height: 320px;
 }
 .comodin-2nd img{
     width: 100%;
@@ -183,9 +187,6 @@ main{
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
-    /*debe definirse HEIGHT en desktop*/
-    /*desktop FLEX*/
-    /*añadir orden para desktop*/
 }
             /*--------------*/
 .me-countainer .skill1{
@@ -316,13 +317,13 @@ main{
     margin: 0px auto;
     margin-top: 60px;
     padding: 16px;
-    background-color: rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.2);
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
 }
 .charts-countainer .chart1, .charts-countainer .chart2, .charts-countainer .chart3{
     width: 100%;
     min-width: 227px;
-    max-width: 295px;
+    max-width: 280px;
     margin: 0px auto;
 }
 .charts-countainer .chart1 img, .charts-countainer .chart2 img,  .charts-countainer .chart3 img{
@@ -367,6 +368,10 @@ main{
 }
 /*----------------------------------*/
 footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     min-width: 320px;
     background: linear-gradient(to right, rgba(209, 194, 60, 0.6) 10%, rgba(173, 78, 14, 0.8));
@@ -377,6 +382,7 @@ footer{
 footer .footer-left{
     padding: 120px 0px;
     width: 100%;
+    max-width: 466px;
     font-size: 3rem;
     font-weight: bold;
     font-family: monospace;
@@ -384,6 +390,7 @@ footer .footer-left{
 }
 footer .footer-right{
     width: 100%;
+    max-width: 466px;
     padding-bottom:50px;    
 }
 footer .footer-right p{
