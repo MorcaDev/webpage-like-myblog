@@ -1,0 +1,10 @@
+@media(min-width:1000px){
+    .main-comodin{
+        position: relative;
+        top: -120px
+    }
+    .main-me{
+        padding: 28px 16px;
+        padding-bottom: 80px;
+    }
+}

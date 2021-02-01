@@ -1,0 +1,28 @@
+@media(min-width:932px){
+    .me-countainer{
+        height: 750px;
+    }  
+    .me-countainer .skill1{
+        order:1;
+    }
+    .me-countainer .skill2{
+        order:0;
+    }
+    .me-countainer .skill3{
+        order:2;
+    }
+    .me-countainer .skill1 h3{
+        font-size: 6rem;
+    }
+    .me-countainer .skill1 span{
+        width: 90px;
+        height: 90px;
+    }
+    .me-countainer .skill1 p{
+        font-size: 2.5rem;
+    }
+    /*---------------*/
+    footer .footer-right{
+        padding-bottom:0px;    
+    }
+}
