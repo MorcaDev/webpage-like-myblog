@@ -1,0 +1,12 @@
+    .main-comodin{
+        display: flex;
+        flex-flow:row wrap;
+    }
+    .comodin-1st{
+        width: 50%;
+        height: 315px;
+    }
+    .comodin-2nd{
+        width: 50%;
+        height: 315px;
+    }
