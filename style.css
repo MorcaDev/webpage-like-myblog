@@ -428,3 +428,56 @@ footer .footer-right ul li a .twitter{
     background: url("./media/TwitterIcon.png") no-repeat center;
     background-size: contain; 
 }
+/*----------------Responsive-----------------*/
+@media(min-width:750px){
+    .main-comodin{
+        display: flex;
+        flex-flow:row wrap;
+    }
+    .comodin-1st{
+        width: 50%;
+        height: 315px;
+    }
+    .comodin-2nd{
+        width: 50%;
+        height: 315px;
+    }
+}
+@media(min-width:932px){
+    .me-countainer{
+        height: 750px;
+    }  
+    .me-countainer .skill1{
+        order:1;
+    }
+    .me-countainer .skill2{
+        order:0;
+    }
+    .me-countainer .skill3{
+        order:2;
+    }
+    .me-countainer .skill1 h3{
+        font-size: 6rem;
+    }
+    .me-countainer .skill1 span{
+        width: 90px;
+        height: 90px;
+    }
+    .me-countainer .skill1 p{
+        font-size: 2.5rem;
+    }
+    /*---------------*/
+    footer .footer-right{
+        padding-bottom:0px;    
+    }
+}
+@media(min-width:1000px){
+    .main-comodin{
+        position: relative;
+        top: -120px
+    }
+    .main-me{
+        padding: 28px 16px;
+        padding-bottom: 80px;
+    }
+}
