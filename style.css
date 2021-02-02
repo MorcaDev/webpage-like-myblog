@@ -110,7 +110,7 @@ main{
 .presentation-text h2{
     margin-bottom: 20px;
     font-size: 3rem;
-    font-family:initial;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
     letter-spacing: 2px;
 }
