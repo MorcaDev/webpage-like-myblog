@@ -10,6 +10,7 @@ body{
     width: 100%;
     min-width: 320px;
     max-width: 1500px;
+    margin: 0 auto;
 }
 /*--------------------------*/
 header{
@@ -20,6 +21,7 @@ header{
     width: 100%;
     height: 90px;
     min-width: 320px;
+    max-width: 1500px;
     padding: 0px 15px;
     background: linear-gradient(to right, rgb(255, 217, 0,1) 10%, rgb(255, 102, 0,1));
 }
@@ -83,6 +85,7 @@ main{
     margin-top: 90px;
     width: 100%;
     min-width: 320px;
+    max-width: 1500px;
     height: auto;
 }
     /*--------------------------------------*/
@@ -392,6 +395,7 @@ footer{
     align-items: center;
     width: 100%;
     min-width: 320px;
+    max-width: 1500px;
     background: linear-gradient(to right, rgba(209, 194, 60, 0.6) 10%, rgba(173, 78, 14, 0.8));
     border-top: black solid 2px;
     border-bottom: black solid 2px;
