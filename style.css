@@ -23,7 +23,7 @@ header{
     min-width: 320px;
     max-width: 1500px;
     padding: 0px 15px;
-    background: linear-gradient(to right, rgb(255, 217, 0,1) 10%, rgb(255, 102, 0,1));
+    background:linear-gradient(to bottom,rgb(255, 102, 0, 1) 10% , rgb(255, 217, 0,0.8));
 }
 .header-brand{
     width: 90%;
@@ -400,7 +400,7 @@ footer{
     width: 100%;
     min-width: 320px;
     max-width: 1500px;
-    background: linear-gradient(to right, rgba(209, 194, 60, 0.6) 10%, rgba(173, 78, 14, 0.8));
+    background: rgb(255, 102, 0, 0.9);
     border-top: black solid 2px;
     border-bottom: black solid 2px;
     text-align: center;
