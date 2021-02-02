@@ -97,7 +97,7 @@ main{
     width: 100%;
     height: 620px;
     min-width: 320px;
-    background: url("./media/article2.jpg") center no-repeat fixed;
+    background: url("./media/MainPresentation.jpg") center no-repeat;
     background-size: 100% 100%;
 }
 .presentation-text{
