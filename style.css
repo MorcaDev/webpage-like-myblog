@@ -145,26 +145,26 @@ main{
     width: 100%;
     height: auto;
     padding: 70px 30px;
-    background-color: rgba(212, 94, 39, 0.288);
+    background-color: rgb(200, 105, 50);
     text-align: center;
 }
 .comodin-1st h2{
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(233, 56, 25);
+    color: white;
 }
 .comodin-1st h2 span{
     display: block;
     margin: 20px auto;
     width: 80px;
     height: 2px;
-    background-color: white;
+    background-color: black;
 }
 .comodin-1st p{
     font-size: 2rem;
     font-weight: 300;
     line-height: 22px;
-    color: rgb(233, 91, 25);
+    color: white;
 }
 .comodin-2nd{
     width: 100%;
