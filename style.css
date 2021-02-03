@@ -116,7 +116,7 @@ main{
     letter-spacing: 2px;
     text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.26);
 }
-.presentation-text .pA{
+.presentation-text .text--pA{
     font-size: 5rem;
     line-height: 52px;
     font-family: initial;
@@ -130,7 +130,7 @@ main{
     height: 3px;
     background-color: orangered;
 }
-.presentation-text .pB{
+.presentation-text .text--pB{
     font-size: 2.5rem;
     font-family: initial;
     font-weight: bold;
@@ -188,19 +188,19 @@ main{
     text-align: center;
     background-color: white;
 }
-.main-me .meh2{
+.main-me .me--h2{
     font-size: 4rem;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.main-me .meh2 span{
+.main-me .me--h2 span{
     display: block;
     margin: 40px auto;
     width: 15px;
     height: 1px;
     background-color: rgb(81, 187, 39);
 }
-.main-me .mep{
+.main-me .me--p{
     margin-bottom: 25px;
     font-size: 2.3rem;
     line-height:25px;
@@ -314,19 +314,19 @@ main{
     min-width: 320px;
     padding: 80px 16px;
 }
-.main-blogpreview .blogpreviewh2{
+.main-blogpreview .blogpreview--h2{
     font-size: 4rem;
     font-weight: bold;
     text-align: center;
 }
-.main-blogpreview .blogpreviewh2 span{
+.main-blogpreview .blogpreview--h2 span{
     display: block;
     width: 30px;
     height: 2px;
     margin: 40px auto;
     background-color: greenyellow;
 }
-.main-blogpreview .blogpreviewp{
+.main-blogpreview .blogpreview--p{
     font-size: 2rem;
     font-weight: 500;
     line-height: 25px;
@@ -447,10 +447,10 @@ footer .footer-right ul li a .facebook{
     background: url("./media/FacebookIcon.png") no-repeat center;
     background-size: contain;
 }
-footer .footer-right ul li a .twitter{
+footer .footer-right ul li a .github{
     display: block;
     width: 50px;
     height: 60px;
-    background: url("./media/TwitterIcon.png") no-repeat center;
+    background: url("./media/githubIcon.png") no-repeat center;
     background-size: contain; 
 }
