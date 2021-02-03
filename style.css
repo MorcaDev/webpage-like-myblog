@@ -76,6 +76,10 @@ header{
     height: 0.2px;
     background-color: rgb(0, 0, 0, 0.2);
 }
+.header-nav:hover .nav--img{
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
 .header-nav:hover div{
     display: flex;
     flex-flow: column wrap;
@@ -378,10 +382,13 @@ main{
     display: inline-block;
     margin: 20px 0px;
     margin-bottom: 40px;
+    padding-left: 4px;
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     color: black;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.815);
+    border-radius: 4px;
 }
 .charts-countainer .chart1 .span-link, .charts-countainer .chart2 .span-link,  .charts-countainer .chart3 .span-link{
     display: inline-block;
