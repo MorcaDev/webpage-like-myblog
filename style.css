@@ -132,7 +132,7 @@ main{
     margin: 40px auto;
     width: 50px;
     height: 3px;
-    background-color: orangered;
+    background-color: rgb(255, 102, 0, 1);
 }
 .presentation-text .text--pB{
     font-size: 2.5rem;
@@ -202,13 +202,13 @@ main{
     margin: 40px auto;
     width: 15px;
     height: 1px;
-    background-color: rgb(81, 187, 39);
+    background-color: greenyellow;
 }
 .main-me .me--p{
     margin-bottom: 25px;
     font-size: 2.3rem;
     line-height:25px;
-    color: gray;
+    color: rgb(88, 87, 87);
 }
 .me-countainer{
     width: 100%; 
@@ -335,7 +335,7 @@ main{
     font-weight: 500;
     line-height: 25px;
     text-align: center;
-    color: gray;
+    color: rgb(88, 87, 87);
 }
 .charts-countainer{
     display: flex;
