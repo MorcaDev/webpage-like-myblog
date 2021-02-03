@@ -32,7 +32,7 @@
         flex-flow: row nowrap;
     }
     .header-nav div a:hover{
-        border-bottom: solid 3px white;
+        border-bottom: double 7px orange;
     }
     /*------------------*/
     .main-comodin{
