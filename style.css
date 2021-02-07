@@ -23,7 +23,7 @@ header{
     min-width: 320px;
     max-width: 1500px;
     padding: 0px 15px;
-    background:blue;
+    background:linear-gradient(to bottom,rgb(255, 102, 0, 1) 10% , rgb(255, 217, 0,0.8));
 }
 .header-brand{
     width: 90%;
@@ -67,7 +67,7 @@ header{
     font-size:3rem;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .header-nav div a .nav-line{
     display: block;
