@@ -23,7 +23,7 @@ header{
     min-width: 320px;
     max-width: 1500px;
     padding: 0px 15px;
-    background:linear-gradient(to bottom,rgb(255, 102, 0, 1) 10% , rgb(255, 217, 0,0.8));
+    background:blue;
 }
 .header-brand{
     width: 90%;
